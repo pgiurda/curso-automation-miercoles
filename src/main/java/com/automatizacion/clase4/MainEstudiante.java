@@ -17,6 +17,6 @@ public class MainEstudiante {
 
         estudiante2.setPromedio(9.6f);
         System.out.println(estudiante2.getPromedio());
-        
+
     }
 }
