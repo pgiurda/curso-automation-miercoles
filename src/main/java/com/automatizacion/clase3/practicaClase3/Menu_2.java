@@ -1,4 +1,4 @@
-package com.automatizacion.practicaClase3;
+package com.automatizacion.clase3.practicaClase3;
 
 import java.util.HashMap;
 

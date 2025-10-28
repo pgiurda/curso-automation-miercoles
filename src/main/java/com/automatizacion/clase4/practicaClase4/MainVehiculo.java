@@ -1,4 +1,4 @@
-package com.automatizacion.practicaClase4;
+package com.automatizacion.clase4.practicaClase4;
 
 public class MainVehiculo {
     public static void main(String[] args) {

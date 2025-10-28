@@ -1,4 +1,4 @@
-package com.automatizacion.practicaClase4;
+package com.automatizacion.clase4.practicaClase4;
 
 import java.util.ArrayList;
 import java.util.List;
