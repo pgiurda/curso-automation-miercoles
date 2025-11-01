@@ -19,11 +19,4 @@ public class Torre extends Personaje {
     public void entrenar(){
         nivel = nivel + 1;
     }
-    @Override
-    void descansar(){};
-
-    @Override
-    boolean estaMuerto() {
-        return super.estaMuerto();
     }
-}

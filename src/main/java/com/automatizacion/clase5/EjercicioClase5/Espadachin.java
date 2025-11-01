@@ -22,18 +22,6 @@ public class Espadachin extends Personaje implements Ofensivo {
     }
 
     @Override
-    void descansar() {
-        super.descansar();
-    }
-
-    ;
-
-    @Override
-    boolean estaMuerto() {
-        return super.estaMuerto();
-    }
-
-    @Override
     public void atacar(Personaje unPersonaje) {
         int danio = fuerza * 2;
         unPersonaje.recibirDanio(danio);

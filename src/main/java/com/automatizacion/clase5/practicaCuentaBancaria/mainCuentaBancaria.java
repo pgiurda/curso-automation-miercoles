@@ -5,7 +5,7 @@ public class mainCuentaBancaria {
         CuentaBancaria cuenta = new CuentaBancaria(50);
 
         try{
-        cuenta.transferir(100);
+        cuenta.transferir(60);
         }catch (SaldoInsuficiente e){
             var saldo = cuenta.getSaldo();
             cuenta.transferir(saldo);

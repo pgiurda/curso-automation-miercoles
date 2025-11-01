@@ -1,6 +1,6 @@
 package com.automatizacion.clase5.practicaFiguras;
 
-import com.automatizacion.clase5.practicaClase5.Figura;
+import com.automatizacion.clase5.practicaFiguras.Figura;
 
 public class Cuadrado extends Figura implements Dibujable {
 

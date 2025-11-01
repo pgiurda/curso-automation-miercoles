@@ -16,5 +16,8 @@ public class CuentaBancaria {
             throw new SaldoInsuficiente();
         }
         System.out.println("Realizando la transferencia");
-    };
+    }
+    public boolean tieneSaldo(){
+        return  saldo > 0;
+    }
 }

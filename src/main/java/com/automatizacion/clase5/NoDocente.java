@@ -8,4 +8,22 @@ public class NoDocente extends  Persona{
     public void saludar(){
         System.out.println("Hola soy un No Docente");
     }
+
+    abstract static class Figura {
+
+        private String color;
+
+        public Figura(String color) {
+            this.color = color;
+        }
+
+        public String getColor() {
+            return color;
+        }
+
+        public void setColor(String color) {
+            this.color = color;
+        }
+        abstract public double calcularArea();
+    }
 }

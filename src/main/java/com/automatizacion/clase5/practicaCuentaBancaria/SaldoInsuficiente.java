@@ -5,6 +5,6 @@ public class SaldoInsuficiente extends RuntimeException{
         super(message);
     }
     public SaldoInsuficiente() {
-        System.out.println("Error: Saldo Insuficiente");
+        super("Error: Saldo Insuficiente");
     }
 }

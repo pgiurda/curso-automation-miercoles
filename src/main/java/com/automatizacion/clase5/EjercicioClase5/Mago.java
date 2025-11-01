@@ -38,11 +38,5 @@ public class Mago extends Personaje implements  Ofensivo{
         int danio = poder * 5;
         unPersonaje.recibirDanio(danio);
     }
-    @Override
-    void descansar(){};
 
-    @Override
-    boolean estaMuerto() {
-        return super.estaMuerto();
-    }
 }
