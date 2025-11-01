@@ -1,4 +1,4 @@
-package com.automatizacion.clase5.practicaClase5;
+package com.automatizacion.clase5.practicaFiguras;
 
 public class Triangulo extends Figura {
     private int base;

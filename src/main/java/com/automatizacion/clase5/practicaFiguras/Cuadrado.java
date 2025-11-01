@@ -1,6 +1,8 @@
-package com.automatizacion.clase5.practicaClase5;
+package com.automatizacion.clase5.practicaFiguras;
 
-public class Cuadrado extends Figura implements Dibujable{
+import com.automatizacion.clase5.practicaClase5.Figura;
+
+public class Cuadrado extends Figura implements Dibujable {
 
     private int lado;
 

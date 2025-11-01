@@ -1,6 +1,6 @@
-package com.automatizacion.clase5.practicaClase5;
+package com.automatizacion.clase5.practicaFiguras;
 
-public class Rectangulo extends Figura implements Dibujable{
+public class Rectangulo extends Figura implements Dibujable {
     private int base;
     private int altura;
 

@@ -1,4 +1,4 @@
-package com.automatizacion.clase5.practicaClase5;
+package com.automatizacion.clase5.practicaFiguras;
 
 import java.util.ArrayList;
 import java.util.List;
