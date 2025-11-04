@@ -1,5 +1,5 @@
 package com.automatizacion.clase5.EjercicioClase5;
-
+import com.automatizacion.clase6.practicaClase6.SaludInvalida;
 public class Espadachin extends Personaje implements Ofensivo {
     private int fuerza;
 
@@ -25,5 +25,11 @@ public class Espadachin extends Personaje implements Ofensivo {
     public void atacar(Personaje unPersonaje) {
         int danio = fuerza * 2;
         unPersonaje.recibirDanio(danio);
+    }
+    public void verificarSalud(int salud){
+        if (salud <= 0){
+            throw new SaludInvalida();
+        }
+        System.out.println("El personaje sigue vivo");
     }
   }

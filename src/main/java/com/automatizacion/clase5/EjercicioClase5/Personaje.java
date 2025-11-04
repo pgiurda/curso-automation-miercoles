@@ -24,10 +24,10 @@ abstract class Personaje {
     public void setSalud(int salud) {
         this.salud = salud;
     }
-    void descansar(){
+    public void descansar(){
         salud += 15;
     };
-    boolean estaMuerto(){
+    public boolean estaMuerto(){
         return salud <= 0;
     }
     abstract void entrenar();
