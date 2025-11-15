@@ -1,4 +1,4 @@
-package com.automatizacion;
+package com.automatizacion.clase6;
 
 import com.automatizacion.clase5.practicaCuentaBancaria.CuentaBancaria;
 import org.testng.Assert;
@@ -17,4 +17,5 @@ public class UnitTest {
 
         Assert.assertFalse(cuenta.tieneSaldo(), "La cuenta tiene saldo");
     }
+
 }

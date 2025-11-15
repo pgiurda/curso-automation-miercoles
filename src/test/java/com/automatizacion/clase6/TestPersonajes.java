@@ -1,4 +1,4 @@
-package com.automatizacion;
+package com.automatizacion.clase6;
 
 import com.automatizacion.clase5.EjercicioClase5.Espadachin;
 import org.testng.Assert;
