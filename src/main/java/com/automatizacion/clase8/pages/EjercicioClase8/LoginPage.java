@@ -5,17 +5,32 @@ import org.openqa.selenium.WebDriver;
 
 
 public class LoginPage extends BasePage{
-    private By dropdownMyAccount = By.xpath("//li/a[@title=\"My Account\"]");
-    //private By menuLogin = By.xpath("dropdown-menu dropdown-menu-right");
-    private By linkLogin = By.xpath("//a[text()=\"Login\"]");
+    private By emailLogin = By.xpath("//input[@id=\"input-email\"]");
+    private By passwordLogin = By.xpath("//input[@id=\"input-password\"]");
+    private By buttonLogin = By.xpath("//input[@class=\"btn btn-primary\"]");
 
-    public LoginPage(WebDriver driver) {
+    public LoginPage(WebDriver driver){
         super(driver);
     }
-    public void clickMyAccount(){
-    click(dropdownMyAccount);
+    public void ingresarEmail(){
+        hacerClear(emailLogin);
+        sendKeys(emailLogin,"pgiurda@hotmail.com");
     }
-    public void abrirLogin(){
-    click(linkLogin);
+    public void invalidEmail(){
+        hacerClear(emailLogin);
+        sendKeys(emailLogin,"email@email.com");
     }
+    public void invalidPassword(){
+        hacerClear(passwordLogin);
+        sendKeys(passwordLogin,"555xxx");
+    }
+    public void ingresarPassword(){
+        hacerClear(passwordLogin);
+        sendKeys(passwordLogin,"1234abc");
+    }
+    public void clickLogin(){
+        click(buttonLogin);
+    }
+
+
 }
